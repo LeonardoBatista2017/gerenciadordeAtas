@@ -1,0 +1,7 @@
+# requirements.txt
+Flask==2.3.3
+google-auth==2.23.1
+google-auth-oauthlib==1.0.0
+google-api-python-client==2.96.0
+whisper @ git+https://github.com/openai/whisper.git
+python-docx==0.8.11

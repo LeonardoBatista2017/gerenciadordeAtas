@@ -1,0 +1,31 @@
+# Ignorar arquivos de ambiente
+.env
+*.env
+
+# Ignorar pastas de uploads e downloads
+uploads/
+downloads/
+
+# Caso existam em subdiretórios também
+**/uploads/
+**/downloads/
+
+# Ignorar arquivos temporários e cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar banco de dados local (caso use SQLite, por exemplo)
+*.sqlite3
+
+# Ignorar diretórios de IDEs e editores
+.vscode/
+.idea/
+
+# Ignorar virtualenvs
+venv/
+.env/
